@@ -17,6 +17,13 @@
         android:layout_width="match_parent"
         android:text="@string/crime_title_hint"/>
 
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/crime_details_label" />
+
+
 
 
 
