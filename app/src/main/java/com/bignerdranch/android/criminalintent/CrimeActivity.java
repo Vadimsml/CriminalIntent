@@ -11,8 +11,3 @@ public class CrimeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_crime);
     }
 }
-//test git hub
-//test branch2
-//test branch2
-//test branch2
-//test branch2
