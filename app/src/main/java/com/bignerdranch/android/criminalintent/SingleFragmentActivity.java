@@ -15,7 +15,7 @@ public abstract class SingleFragmentActivity extends AppCompatActivity {
         FragmentManager fm = getSupportFragmentManager();
         android.support.v4.app.Fragment fragment = fm.findFragmentById(R.id.fragment_container);
         if (fragment==null) {
-            fragment=new CrimeFragment();
+            fragment= createFragment();
             fm.beginTransaction()
                     .add(R.id.fragment_container, fragment)
                     .commit();
